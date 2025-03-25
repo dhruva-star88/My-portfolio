@@ -1,0 +1,25 @@
+.skills{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 80px;
+     margin: 80px 170px;
+}
+
+.skills-title{
+    position: relative;
+}
+
+.skills-title h1{
+    padding: 0px 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.skills-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
