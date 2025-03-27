@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './navbar.css'
-import logo from "../../assets/logo.svg"
 import themePattern from '../../assets/theme_pattern.svg'
 import underLine from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'

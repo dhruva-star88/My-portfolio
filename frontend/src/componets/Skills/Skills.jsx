@@ -1,6 +1,7 @@
 import React from 'react'
 import './skills.css'
 import themePattern from '../../assets/theme_pattern.svg'
+import {skills} from '../../data/constant'
 
 const Skills = () => {
   return (
@@ -9,7 +10,9 @@ const Skills = () => {
             <h1>Skills</h1>
             <img src={themePattern} alt="theme" />
         </div>
-        <div className="skills-container"></div>
+        <div className="skills-container">
+          
+        </div>
     </div>
   )
 }
